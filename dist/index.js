@@ -1,9 +1,9 @@
-import { concatination } from "./concatenation";
-const input = document.querySelector('input');
+import { concatenation } from './concatenation';
 const button = document.querySelector('button');
+const input = document.querySelector('input');
 if (button && input) {
     button.addEventListener('click', () => {
-        concatination(input.value, 'hello!');
+        concatenation(input.value, 'hello!');
     });
 }
 //# sourceMappingURL=index.js.map
